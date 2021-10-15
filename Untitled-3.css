@@ -1,0 +1,507 @@
+@charset "utf-8";
+/* CSS Document */
+{
+	padding: 0;
+	margin: 0
+}
+html{
+	scroll-behavior: smooth
+}
+@font-face {
+  font-family: myFirstFont;
+  src: url("hình/Thewitcher-jnOj.ttf")
+}
+@font-face {
+  font-family: myFirstFonp;
+  src: url("hình/Lato Việt Hoá/Lato Medium.ttf")
+}
+.logo img{
+	height: 90px;
+	
+}
+.menu {
+	display: flex;
+	align-items: center;
+	align-content: center;
+    
+}
+.menu a{
+	margin: 0px 24px;
+	color: white;
+	text-decoration: none;
+	font-family: myFirstFont;
+	font-size: 20px
+		
+}
+.footer a{
+	margin: 0px 24px;
+	color: black;
+	text-decoration: none;
+	font-family: myFirstFont;
+	font-size: 20px
+		
+}
+.phone{
+	color: white!important;
+	text-decoration: none;
+	margin-right: 24px;
+	font-family: myFirstFont;
+	font-size: 18px
+}
+.btn{
+	border-radius: 202px;
+	text-decoration: none;
+	font-family: myFirstFont;
+	color: white;
+	text-decoration: none;
+	border: 1px solid red;
+	padding: 9px 20px;
+	
+}
+.btn5{
+	text-decoration: none;
+	font-family: myFirstFont;
+	color: white;
+	text-decoration: none;
+	border: 1px solid white;
+	padding: 9px 108px;
+	background: black;
+	padding-bottom: 10px;
+	font-size: 18px
+}
+.btn2{
+	text-decoration: none;
+	font-family: myFirstFonp;
+	text-decoration: none;
+	border: 2px solid red;
+	padding: 9px 50px 9px 5px;
+	margin-top: 10px;
+	font-size: 18px;
+	
+}
+.btn3{
+	text-decoration: none;
+	font-family: myFirstFont;
+	background: red;
+	color: black;
+	text-decoration: none;
+	border: 2px solid red;
+	padding: 9px 20px;
+	text-align: center;
+}
+.btn4{
+	text-decoration: none;
+	font-family: myFirstFonp;
+	border: 2px solid red;
+	width: 530px;
+	height: 250px;
+	margin-top: 10px;
+	font-size: 18px;
+	text-align: left
+}
+.btn:hover{
+	background: red;
+	color: white
+}
+.btn3:hover {
+	color: white
+}
+.btn5:hover{
+	background: white;
+	color: red
+}
+.menu a:hover{
+	color: red
+}
+.footer a:hover{
+	color: red
+}
+header{
+	width: 100%;
+	position: fixed;
+	z-index: 1050;
+    background: black;
+	border-bottom: 2px solid red;
+}
+.banners{
+	background-image: url("hình/812b84929479f336781d43effec1de08.jpg");
+	width: 100%;
+    height:800px;
+	object-fit: cover;
+	z-index: 50;
+	background-position: 100% 12%;
+	background-repeat: no-repeat;
+	background-size: cover;
+	
+}
+.banner{
+	
+	background: black;
+}
+.banner-ct{
+	color: white;
+	text-align: left;
+    position: absolute;
+    top: 55%;
+    left:28%;
+    transform: translate(-50%, -50%);
+	background:   rgba(0,0,0,0.45);
+	padding: 40px 10px
+}
+.h2-G{
+	font-family: myFirstFont
+}
+.p-1{
+	font-family:  myFirstFonp
+}
+.bannerimg img{
+	height: 360px;
+	width: 320px;
+	position: absolute;
+	top: 28%;
+    left:60%;
+	border: 2px solid white
+}
+.brw img{
+    height: 360px;
+	width: 300px;  
+}
+.img1{
+	position: absolute;
+	top: 32%;
+    left:50%;
+	border: 2px solid white;
+	opacity: 70%
+}
+.img2{
+	position: absolute;
+	top: 32%;
+    left:71%;
+	border: 2px solid white;
+	opacity: 70%
+}
+#About{
+	padding-bottom: 100px;
+	margin: 0 auto
+}
+#About img{
+	height: 900px;
+	margin-left: -200px;
+	margin-top: -150px
+}
+.textw{
+	 font-family:  myFirstFonp;
+	color:white;
+	margin-top: 80px;
+	
+}
+.textw h4{
+	padding: 20px 0 10px;
+	letter-spacing: 1px
+}
+#Service{ 
+	padding-bottom: 100px;
+	padding-top: 150px;
+	margin-top:-350px
+}
+.dichvu{
+	font-family:  myFirstFont;
+	text-align: center;
+	font-size: 60px;
+	color: white;
+    padding-top:10px
+}
+.dichvus{
+	font-family:  myFirstFont;
+	text-align: center;
+	font-size: 60px;
+	color: white;
+    padding-top:100px;
+	
+}
+
+.box{
+	width: 250px;
+	margin: 10px;
+	position: relative;
+	padding-top:55px;
+    
+}
+.box img{
+    width: 550px;
+	height: 360px;
+	border: 1px solid white
+}
+.content{
+	width: 555px;
+/*	display: none;*/
+	height: 100%;
+	overflow: hidden;
+    color: white;
+	text-align: center;
+	font-family: myFirstFonp
+	}
+.brightness:hover{
+	filter:brightness(120%);
+}
+.hinhthem{
+	border: none;
+	height: 300px;
+	position: absolute;
+	margin-left: 150px;
+	margin-top:-80px
+}
+.hinhthems{
+	border: none;
+	height:300px;
+	position: absolute;
+	margin-left: 150px;
+	margin-top:-70px
+}
+.chuport{
+	font-family: myFirstFont;
+	color: white;
+	text-align: center;
+	font-size: 60px
+}
+#Portfolio{ 
+	padding-top:12 0px;
+	padding-bottom: 50px;
+	height: 720px;
+}
+.menu2 {
+	align-items: center;
+	align-content: center;
+    text-align: center;
+	padding-top: 50px
+}
+.menu2 a{
+	margin: 0px 24px;
+	color: white;
+	text-decoration: none;
+	font-family: myFirstFont;
+	font-size: 20px
+		
+}
+.menu2 a:hover{
+	color: red
+}
+.box2{
+	width: 300px;
+	margin: 10px;
+	position: relative;
+	padding-top: 20px
+}
+.box2 img{
+    width: 515px;
+	height:235px;
+    padding: 0 100px;
+	
+}
+
+.overlay{
+	opacity: 0;
+	visibility: hidden;
+}
+.box2:hover .overlay{
+	opacity: 1;
+	visibility:visible;
+	
+}
+.contenz{
+	width: 500px;
+	height: 100px;
+	position: absolute;
+	top:0;
+/*	display: none;*/
+	height: 100%;
+	transition-duration: 1s;
+	overflow: hidden;
+    color: white;
+	padding-left: 100px;
+	padding-right: 100px
+}
+.text-overlay{
+	padding-top: 208px;
+	font-family: myFirstFonp;
+	font-size:18px;
+	margin-left: 10px
+}
+#All{
+	display: flex;
+	align-items: center;
+	
+}
+.zoom:hover img{
+	overflow: hidden
+}
+.box3{
+	width: 300px;
+	margin: 10px;
+	position: relative;
+	top:-8px;
+}
+.box3 img{
+    width: 515px;
+	height:250px;
+    padding: 0 100px;
+   
+}
+.box3:hover .overlay{
+	opacity: 1;
+	visibility:visible;
+	
+}
+.dongminh{
+	font-family: myFirstFont;
+	color: white;
+	text-align: center;
+	font-size: 60px
+}
+#Partner{ 
+	padding-top:100px;
+	padding-bottom: 50px;
+	height: 1360px;
+}
+.yen-text h2{
+	font-family: myFirstFont;
+	color: white;
+    font-size: 50px;
+	
+}
+.yen-text p{
+	color: white;
+	font-family: myFirstFonp;
+	padding-top: 10px
+}
+.yen{
+	padding-top:50px;
+	text-align: left
+}
+.yen-text h4{
+	font-family: myFirstFont;
+	color: white;
+    font-size: 20px;
+	padding-top: 50px;
+	
+	
+}
+.ciri-text h2{
+	font-family: myFirstFont;
+	color: white;
+    font-size: 50px;
+	
+}
+.ciri-text{
+	text-align: right
+}
+.ciri-text p{
+	color: white;
+	font-family: myFirstFonp;
+	padding-top: 10px
+}
+.ciri{
+	
+}
+.ciri-text h4{
+	font-family: myFirstFont;
+	color: white;
+    font-size: 20px;
+	
+	
+	
+}
+.ciri{
+  text-align: right
+}
+.back{
+	background-image: url(  "hình/triangles-gray.png" );
+	ackground-position: center 0;
+    background-repeat: repeat-y;
+    min-height: 600px;
+    position: relative;
+    z-index: 1000;
+	background-size: cover
+}
+#subscribe{
+	background-image: url(
+	"hình/triangles-white.png");
+	z-index: 10010;
+}
+.padd{
+	padding-top: 120px;
+	display: flex;
+	margin-top: -100px
+}
+.dangki{
+	font-family: myFirstFont;
+	color: black;
+	text-align: left;
+	font-size: 60px
+}
+.hinhchim img{
+	height: 300px;
+}
+.hinhchim{
+	text-align: right;
+    margin-top: -20px
+}
+.chudangki{
+		font-family: myFirstFonp;
+}
+.inputdangki a{
+	font-size: 20px;
+}
+.hinhnhon{
+	position: relative;
+	margin-top: -400px;
+	top: -10px;
+	width: 100%
+}
+.hinhnhon2{ 
+	position: relative;
+	margin-top: -550px;
+	top: -10px;
+	width: 100%
+}
+.checkbox{
+ width: 30px;
+ height: 30px;
+	margin-top: 10px
+}
+.chucheck {
+	font-size: 18px;
+	font-family: myFirstFonp;
+	margin: 10px 
+}
+.checktext{
+	display: flex;
+	margin-top: 10px
+}
+.chucheck a{
+	text-decoration: none;
+	color: lightcoral
+}
+.chucheck:hover a{
+	color: red
+}
+#contact{
+	background-image: url("hình/triangles-orange.png");
+	padding-top:50px;
+	padding-bottom: 50px
+}
+.hinhnhon4{
+	width: 100%
+}
+.lienlac{
+	font-family: myFirstFont;
+	color: white;
+	text-align: center;
+	font-size: 60px
+}
+.inputs{
+	padding: 5px;
+	margin: 10px;
+	border: none;
+	border-bottom: 1px solid white
+}
